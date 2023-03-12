@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        body{
+    
+    background-color:lavender}
+    label{ color:rgb(84, 125, 140);
+  
+}
+    </style>
+</head>
+<body>
+    <h1 style="text-align:center"> Student Registration Form</h1>
+    <form action="mailto:way6shekhar@gmail.com">
+        <table cellpadding="10">
+            <thead>
+            <td><label for="Name"><strong>Enter Your Name:</strong> </label> </td>
+            <td>&nbsp;<input type="text" placeholder="Enter Your Name"></td>
+        </thead>
+        
+        <thead>
+            <td><label for="date of birth"><strong> Date Of Birth:</strong></label></td>
+            <td>&nbsp;<input type="date"></td>
+        </thead>
+        <thead>
+            <td><label for="gender"><strong>Gender:</strong> </label></td>
+            <td>Male<input type="radio" name="Gender" id="Male">
+                Female<input type="radio" name="Gender" id="Female">
+                Other<input type="radio" name="Gender" id="Other"></td>
+        </thead>
+        <thead>
+            <td><label for="qualification"><strong>Qualification:</strong></label></td>
+            <td><input type="text"></td>
+        </thead>
+        <thead>
+            <td><label for="occupation"><strong>Any Occupation:</strong></label></td>
+            <td><input type="text"></td>
+        </thead>
+        <thead>
+            <td><label for="contact"><strong>Contact No:</strong></label></td>
+            <td><input type="text" placeholder="+123 xxxxxxxx69"></td>
+        </thead>
+        <thead>
+            <td><label for="email"><strong>Email Address:</strong></label></td>
+            <td><input type="text" placeholder="email@xyz.com"></td>
+        </thead>
+        <thead>
+            <td><label for="language"><strong> Language Known:</strong></label></td>
+            <td> <select name="languauge" id="language-known">
+                <option value="">Choose your prefer Language</option>
+                <option value="hindi">Hindi</option>
+                <option value="English">English</option>
+                <option value="Punjabi">Japanese</option>
+        
+              </select></td>
+        </thead>
+        <thead>
+            <td><label for="address"><strong>Residential Address:</strong></label></td>
+            <td><textarea name="" id="address" cols="40" rows="2" placeholder="Enter Your Residental Address"></textarea></td>
+        </thead>
+        </table>
+        <fieldset>
+            <legend>Do You Agree</legend>
+            <input type="checkbox">
+            <label for="chbx">Agree</label>
+        </fieldset>
+        <br>
+        <input type="Submit">
+
+    </form>
+
+    
+</body>
+</html>

@@ -1,0 +1,149 @@
+body{
+    margin: 0;
+    text-align:center ;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+h1{
+    color: #668fbf;
+    margin-top: 0;
+    font-family: 'Sacramento', cursive;
+    font-size: 40px;
+    line-height: 3;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+}
+.view{
+    color:#150050;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+}
+.botcld{
+    position: absolute;
+    left: 400px;
+    top: 300px;
+}
+.topcld{
+    position: absolute;
+    right: 400px;
+    top: 50px;
+}
+.pro{
+    text-decoration: underline;
+}
+.top{
+
+    background-color:#CDFCF6;
+    position: relative;
+    padding-top: 100px;
+    /* width: 200px;
+    height: 200px; */
+    /* border: 5px solid black;
+    padding: 5px;
+     */
+}
+.pht{
+    width: 200px;
+    height: 200px;
+    padding-top: 100px;
+}
+.sklpht{
+    border-radius: 1px;
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 30px;
+    
+}
+.col{
+    border: dotted #eaf6f6 8px;
+    border-bottom: none;
+    width: 50%;
+    margin: 60px auto;
+
+}
+.cd{
+    
+    margin-right: 30px;
+}
+.a{
+    color:aqua;
+}
+.b{
+    color:#150050;
+}
+.sklpht2{
+    border-radius: 1px;
+    width: 100px;
+    height: 100px;
+    float: right;
+    margin-bottom: 30px;
+}
+.skill-row{
+    width: 60%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.contact-me{
+    width: 60%;
+    margin: 50px auto 50px auto;
+}
+.cm{
+    width: 50%;
+    line-height: 2;
+    margin: 20px auto 60px;
+}
+/* .btn:hover{ 
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top,#30e3cb,#2bc4ad);
+    background-image: -moz-linear-gradient (top,#30e3cb,#2bc4ad);
+   background-image: -ms-linear-gradient (top,#30e3cb,#2bc4ad);
+   background-image: -o-linear-gradient(top,#30e3cb,#2bc4ad);
+   background-image: linear-gradient(to bottom,#30e3cb,#2bc4ad);
+   text-decoration: none;
+} */
+
+.bottom-container{
+    padding: 50px 0 20px;
+    background-color:aqua;
+}
+
+
+.myButton{
+	background-color:#30E3CB;
+	border-radius:28px;
+	border:1px solid #30E3CB;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #30E3CB;
+}
+.myButton:hover {
+	background-color:hsl(315, 64%, 46%);
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+a{
+    color: #150050;
+    font-family: 'Montserrat', sans-serif;
+margin: 10px 10px;
+text-decoration: none;
+}
+a:hover{
+    color: #eaf6f6;
+}
+.copyright{
+    color: #eaf6f6;
+    font-size: 0.90rem;
+    padding: 20px 0px;
+}
